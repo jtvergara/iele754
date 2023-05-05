@@ -1,3 +1,5 @@
+#Guia 2: Clean data covid and plot cases
+
 import pandas as pd
 import seaborn as sns
 
