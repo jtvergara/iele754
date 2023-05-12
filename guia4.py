@@ -47,7 +47,7 @@ Hstar = H.copy()
 Hstar[D == 1] = np.nan
 
 # Plot the data
-plt.plot(S, H, color='gray', linewidth=2)
+#plt.plot(S, H, color='gray', linewidth=2)
 plt.scatter(S, Hstar, color='red', s=30, linewidth=3)
 
 # Add labels and title
@@ -68,7 +68,7 @@ Hstar = H.copy()
 Hstar[D == 1] = np.nan
 
 # Plot the data
-plt.plot(S, H, color='gray', linewidth=2)
+#plt.plot(S, H, color='gray', linewidth=2)
 plt.scatter(S, Hstar, color='red', s=30, linewidth=3)
 
 # Add labels and title
@@ -88,7 +88,7 @@ Hstar = H.copy()
 Hstar[D == 1] = np.nan
 
 # Plot the data
-plt.plot(S, H, color='gray', linewidth=2)
+#plt.plot(S, H, color='gray', linewidth=2)
 plt.scatter(S, Hstar, color='red', s=30, linewidth=3)
 
 # Add labels and title
@@ -98,6 +98,7 @@ plt.title('Normal Distributions')
 
 # Display the plot
 plt.show()
+sns.histplot(S, kde=True, stat="density")
 # %%
 N = 100
 S = np.random.normal(size=N)
